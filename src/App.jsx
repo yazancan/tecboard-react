@@ -1,4 +1,5 @@
-import './App.css'
+import "./App.css";
+import { FormularioDeEvento } from './componentes/Formulario de Evento'
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <section>
         <img src="/banner.png" alt="" />
       </section>
+      <FormularioDeEvento />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
