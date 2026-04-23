@@ -18,5 +18,6 @@ header {
 .eventos {
   display: flex;
   gap: 24px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
 }
