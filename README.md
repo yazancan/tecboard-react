@@ -1,16 +1,76 @@
-# React + Vite
+# 🎯 TecBoard React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](preview-tecboard.png)
 
-Currently, two official plugins are available:
+Projeto desenvolvido durante o curso "React 19: JSX, componentes, form action e useState" da Alura, com foco em criação e organização de eventos por tema.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A aplicação permite cadastrar eventos e visualizá-los organizados em categorias como Front-end, Back-end, DevOps, entre outros.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+* React
+* JavaScript
+* CSS
+* HTML
+* Vite
+* Node.JS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Conceitos aplicados
+
+* Componentização no React
+* Uso de `useState`
+* Props entre componentes
+* Renderização dinâmica com `.map()`
+* Filtro de dados com `.filter()`
+* Estruturação de layout com CSS Grid
+* Manipulação de formulários
+
+---
+
+## ⚙️ Como rodar o projeto
+
+* Clone o repositório:
+
+```bash
+git clone https://github.com/yazancan/tecboard-react.git
+```
+
+* Acesse a pasta do projeto:
+
+```bash
+cd tecboard-react
+```
+
+* Instale as dependências:
+
+```bash
+npm install
+```
+
+* Rode o projeto:
+
+```bash
+npm run dev
+```
+
+* Abra no navegador:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🎨 Layout
+
+O layout foi baseado em um protótipo do Figma: https://www.figma.com/design/0CY2BZhgokUruzzLz6jp0M/Node--React-e-Vite-%7C-Tecboard--Community-?node-id=2122-654&t=ob7xC6vkCNR9pmLN-0
+
+---
+
+## 🔗 Deploy
+
+https://tecboard-react-ebon.vercel.app/
